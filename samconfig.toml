@@ -3,8 +3,9 @@ version = 0.1
 [default.deploy]
 [default.deploy.parameters]
 stack_name = "file-import-state-machine"
-s3_bucket = "aws-sam-cli-managed-default-samclisourcebucket-1px9ct9ml4u2c"
+s3_bucket = "aws-sam-cli-managed-default-samclisourcebucket-nwoa2660e34"
 s3_prefix = "file-import-state-machine"
 region = "us-east-1"
 confirm_changeset = true
 capabilities = "CAPABILITY_IAM"
+parameter_overrides = "SourceObjectKey=\"eDNE_Delta_Basico_2102.zip\" EnvName=\"cafmf\""
