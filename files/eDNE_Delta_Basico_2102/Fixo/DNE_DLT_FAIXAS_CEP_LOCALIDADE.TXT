@@ -1,0 +1,7 @@
+C D2102  25 MAR 2021    © COPYRIGHT CORREIOS                 FAIXAS DE CEP DAS LOCALIDADES                           
+DMG  14      00003813Santos Dumont                                                           02 36240001 36249999ITC
+DMG  14      00003813Santos Dumont                                                           02 36240000 36249999DTC
+DSP  26      00008949Barra Bonita                                                            02 17340000 17349999ICC
+DSP  26      00009072Cordeirópolis                                                           02 13490000 13494999ICC
+DSP  26      00009206Igaraçu do Tietê                                                        02 17350000 17359999ICC
+#

@@ -1,0 +1,19 @@
+Delta DNE versão 2102 Atualizada até 24/03/2021
+
+COMUNICADO IMPORTANTE
+--------------------------------------------
+Ler arquivos:
+
+	A_COMUNICADO.doc
+	
+	A_COMUNICADO 4 - Informação sobre atualizações_2103.docx
+
+	Leiautes_delta_delimitador.doc - basico\delimitado\
+
+        Leiautes_delta_delimitador.doc - master\delimitado\
+
+        Leiautes_delta_fixo.doc - master\fixo\
+
+        Leiautes_delta_fixo.doc - basico\fixo\
+
+	Alteracao_Leiaute_Arq_Faixas de CEP.docx

@@ -1,0 +1,319 @@
+C D2102  25 MAR 2021    © COPYRIGHT CORREIOS                 FAIXAS DE CEP POR BAIRRO                                                                                                                  
+D  05BA      00000988Salvador                                                                     00075995Retiro                                                                  01 41151000 41151999I
+D  06CE      00001451Juazeiro do Norte                                                            00049590Frei Damião                                                             03 63044246 63044425U
+D  06CE      00001451Juazeiro do Norte                                                            00049457São José                                                                02 63044426 63044899I
+D  08ES      00001847Colatina                                                                     0007602615 de Outubro                                                           01 29707700 29707739I
+D  08ES      00002044Vila Velha                                                                   00076024Xuri                                                                    01 29129800 29129810I
+D  10GO      00002069Aparecida de Goiânia                                                         00075966Setor Pampulha II                                                       01 74983730 74983749I
+D  10GO      00002174Goiânia                                                                      00075960Chácaras Bougainville                                                   01 74371151 74371159I
+D  10GO      00002174Goiânia                                                                      00050311Fazenda Caveiras                                                        05 74474730 74474749I
+D  10GO      00002174Goiânia                                                                      00058323Fazenda São José                                                        03 74483890 74483899I
+D  10GO      00002174Goiânia                                                                      00053250Fazenda São José - Residencial Celeste                                  01 74483871 74483889U
+D  10GO      00002222Luziânia                                                                     00076201Fazenda Saia Velha                                                      01 72852420 72852469I
+D  10GO      00002222Luziânia                                                                     00034607São Caetano                                                             01 72805000 72805499U
+D  10GO      00002222Luziânia                                                                     00076073Terra Park Club Residence                                               01 72805500 72805549I
+D  10GO      00002336Senador Canedo                                                               00076088Condomínio Vinhas                                                       01 75254350 75254409I
+D  10GO      00002349Trindade                                                                     00075958Condomínio de Chácaras Galiléia                                         01 75390860 75390899I
+D  10GO      00002361Valparaíso de Goiás                                                          00075964Chácaras Ypiranga A                                                     01 72879050 72879079I
+D  10GO      00002361Valparaíso de Goiás                                                          00075965Chácaras Ypiranga B                                                     01 72879080 72879099I
+D  11MA      00002606Timon                                                                        00003050Bela Vista                                                              02 65636890 65636890U
+D  11MA      00002606Timon                                                                        00003052Boa Esperança                                                           05 65636891 65636899I
+D  11MA      00002606Timon                                                                        00054713Cajueiro                                                                02 65630871 65630899I
+D  11MA      00002606Timon                                                                        00003074Jóia                                                                    02 65632816 65632899I
+D  11MA      00002606Timon                                                                        00054737Mateuzinho                                                              04 65630800 65630870U
+D  11MA      00002606Timon                                                                        00003061Mutirão                                                                 01 65635440 65635899U
+D  11MA      00002606Timon                                                                        00003071São Francisco I                                                         02 65636740 65636779I
+D  11MA      00002606Timon                                                                        00003071São Francisco I                                                         02 65636722 65636724U
+D  11MA      00002606Timon                                                                        00003058São Francisco II                                                        12 65636725 65636739I
+D  11MA      00002606Timon                                                                        00003077Vila Bandeirante                                                        07 65635010 65635320I
+D  11MA      00002606Timon                                                                        00003077Vila Bandeirante                                                        07 65634661 65634899I
+D  11MA      00002606Timon                                                                        00003079Vila do BEC                                                             03 65632400 65632465I
+D  11MA      00002606Timon                                                                        00003079Vila do BEC                                                             03 65632600 65632815I
+D  14MG      00003234Itabira                                                                      00076322Jardim Bello Monte                                                      01 35901750 35901789I
+D  14MG      00003632Poços de Caldas                                                              00005085Jardim Philadélphia                                                     02 37709111 37709120I
+D  14MG      00003632Poços de Caldas                                                              00005085Jardim Philadélphia                                                     02 37709100 37709110D
+D  14MG      00003632Poços de Caldas                                                              00050471Jardim Philadélphia II                                                  02 37709100 37709110I
+D  14MG      00003632Poços de Caldas                                                              00076128Residencial Alamedas                                                    01 37716060 37716099I
+D  14MG      00003632Poços de Caldas                                                              00052811Santa Ângela IV                                                         01 37716040 37716059U
+D  14MG      00003813Santos Dumont                                                                00075982Água Espraiada                                                          02 36246250 36246269I
+D  14MG      00003813Santos Dumont                                                                00075982Água Espraiada                                                          02 36246270 36246289I
+D  14MG      00003813Santos Dumont                                                                00075988Antônio Afonso                                                          01 36242510 36242529I
+D  14MG      00003813Santos Dumont                                                                00075969Área Rural de Santos Dumont                                             01 36247899 36247899I
+D  14MG      00003813Santos Dumont                                                                00075992Boa Vista                                                               01 36246380 36246459I
+D  14MG      00003813Santos Dumont                                                                00075975Cabangu                                                                 02 36242340 36242399I
+D  14MG      00003813Santos Dumont                                                                00075975Cabangu                                                                 02 36242400 36242419I
+D  14MG      00003813Santos Dumont                                                                00075990Campo Alegre                                                            01 36244460 36244479I
+D  14MG      00003813Santos Dumont                                                                00034201Centro                                                                  01 36240001 36240189I
+D  14MG      00003813Santos Dumont                                                                00075978Córrego do Ouro                                                         02 36244150 36244289I
+D  14MG      00003813Santos Dumont                                                                00075978Córrego do Ouro                                                         02 36244290 36244319I
+D  14MG      00003813Santos Dumont                                                                00075983Flores                                                                  01 36240190 36240219I
+D  14MG      00003813Santos Dumont                                                                00075987Graminha                                                                01 36242260 36242339I
+D  14MG      00003813Santos Dumont                                                                00075971João Paulo II                                                           02 36240260 36240269I
+D  14MG      00003813Santos Dumont                                                                00075971João Paulo II                                                           02 36240250 36240259I
+D  14MG      00003813Santos Dumont                                                                00075986Loteamento Belvedere                                                    01 36242240 36242259I
+D  14MG      00003813Santos Dumont                                                                00075989Nossa Senhora Aparecida                                                 01 36244070 36244149I
+D  14MG      00003813Santos Dumont                                                                00075974Nossa Senhora da Glória                                                 02 36242060 36242219I
+D  14MG      00003813Santos Dumont                                                                00075974Nossa Senhora da Glória                                                 02 36242220 36242239I
+D  14MG      00003813Santos Dumont                                                                00075973Nossa Senhora das Graças                                                02 36242000 36242039I
+D  14MG      00003813Santos Dumont                                                                00075973Nossa Senhora das Graças                                                02 36242040 36242059I
+D  14MG      00003813Santos Dumont                                                                00075972Nossa Senhora de Fátima                                                 02 36240270 36240289I
+D  14MG      00003813Santos Dumont                                                                00075972Nossa Senhora de Fátima                                                 02 36240290 36240309I
+D  14MG      00003813Santos Dumont                                                                00075981Nossa Senhora de Guadalupe                                              02 36246200 36246229I
+D  14MG      00003813Santos Dumont                                                                00075981Nossa Senhora de Guadalupe                                              02 36246230 36246249I
+D  14MG      00003813Santos Dumont                                                                00075979Ponte Preta                                                             02 36244320 36244359I
+D  14MG      00003813Santos Dumont                                                                00075979Ponte Preta                                                             02 36244360 36244459I
+D  14MG      00003813Santos Dumont                                                                00075991Quarto Depósito                                                         01 36246290 36246379I
+D  14MG      00003813Santos Dumont                                                                00075985Santo Antônio                                                           01 36240310 36240379I
+D  14MG      00003813Santos Dumont                                                                00075984São Miguel                                                              01 36240220 36240249I
+D  14MG      00003813Santos Dumont                                                                00075980São Sebastião                                                           02 36246170 36246199I
+D  14MG      00003813Santos Dumont                                                                00075980São Sebastião                                                           02 36246000 36246169I
+D  14MG      00003813Santos Dumont                                                                00075976São Sebastião da Barra                                                  02 36242480 36242509I
+D  14MG      00003813Santos Dumont                                                                00075976São Sebastião da Barra                                                  02 36242420 36242479I
+D  14MG      00003813Santos Dumont                                                                00075977Vila Esperança                                                          02 36244000 36244039I
+D  14MG      00003813Santos Dumont                                                                00075977Vila Esperança                                                          02 36244040 36244069I
+D  14MG      00004017Teófilo Otoni                                                                00076009Eucalipto                                                               01 39801560 39801564I
+D  14MG      00004017Teófilo Otoni                                                                00053160Felicidade                                                              01 39800640 39800669U
+D  14MG      00004017Teófilo Otoni                                                                00005636Frimusa                                                                 01 39802390 39802399I
+D  14MG      00004017Teófilo Otoni                                                                00005662Tabajaras                                                               04 39801065 39801066D
+D  14MG      00004017Teófilo Otoni                                                                00005662Tabajaras                                                               04 39801061 39801066I
+D  14MG      00004048Uberlândia                                                                   00005878Residencial Integração                                                  03 38407043 38407047I
+D  14MG      00004048Uberlândia                                                                   00005878Residencial Integração                                                  03 38407498 38407649I
+D  14MG      00004048Uberlândia                                                                   00005878Residencial Integração                                                  03 38407044 38407047D
+D  14MG      00004066Varginha                                                                     00076064Parque São Matheus                                                      01 37007150 37007169I
+D  13MS      00004141Campo Grande                                                                 00075998Jacy                                                                    01 79006241 79006249I
+D  13MS      00004141Campo Grande                                                                 00068265Loteamento Novo Dia                                                     02 79106664 79106667I
+D  13MS      00004141Campo Grande                                                                 00006112Santa Mônica                                                            02 79106668 79106670I
+D  13MS      00004141Campo Grande                                                                 00006112Santa Mônica                                                            02 79106664 79106670D
+D  13MS      00004263Três Lagoas                                                                  00075997Real Park                                                               01 79621550 79621599I
+D  12MT      00004462Rondonópolis                                                                 00076258Condomínio do Bosque                                                    01 78744140 78744142I
+D  12MT      00004462Rondonópolis                                                                 00076259Condomínio do Bosque II                                                 01 78744143 78744145I
+D  12MT      00004462Rondonópolis                                                                 00076260Condomínio Villa Toscana                                                01 78744146 78744148I
+D  12MT      00004462Rondonópolis                                                                 00076228Jardim Recanto da Vila Mineira                                          01 78721850 78721869I
+D  12MT      00004462Rondonópolis                                                                 00049818Jardim Residencial Carlos Bezerra II                                    01 78717500 78717559U
+D  12MT      00004462Rondonópolis                                                                 00076231Jardim Residencial Dona Neuma                                           01 78716650 78716689I
+D  12MT      00004462Rondonópolis                                                                 00076227Parque Rosa Bororo                                                      01 78749000 78749049I
+D  12MT      00004462Rondonópolis                                                                 00076262Residencial Edelmina Querobin Marchetti                                 01 78717560 78717579I
+D  12MT      00004493Sinop                                                                        00076086Residencial Riviera Suíça I                                             01 78556451 78556499I
+D  12MT      00004493Sinop                                                                        00076085Residencial Riviera Suíça II                                            01 78555580 78555589I
+D  12MT      00004495Sorriso                                                                      00076125Jardim Botânico                                                         01 78893490 78893519I
+D  16PB      00004964João Pessoa                                                                  00075999Mussuré                                                                 01 58095000 58095999I
+D  18PE      00005389Petrolina                                                                    00075970Alto do Cocar                                                           01 56315000 56315849I
+D  22RS      00007533Canoas                                                                       00013127Centro                                                                  12 92310360 92310379U
+D  22RS      00007533Canoas                                                                       00013130Harmonia                                                                17 92310380 92310390I
+D  22RS      00007533Canoas                                                                       00013130Harmonia                                                                17 92310370 92310390D
+D  22RS      00007953Passo Fundo                                                                  00013441Santa Maria                                                             10 99070250 99070349U
+D  22RS      00007953Passo Fundo                                                                  00013398São Cristóvão                                                           16 99070350 99070369I
+D  22RS      00007994Porto Alegre                                                                 00013465Azenha                                                                  25 90050090 90050099U
+D  22RS      00007994Porto Alegre                                                                 00013475Centro Histórico                                                        17 90050200 90050209U
+D  22RS      00007994Porto Alegre                                                                 00013475Centro Histórico                                                        17 90050100 90050103D
+D  22RS      00007994Porto Alegre                                                                 00013478Cidade Baixa                                                            14 90050100 90050109I
+D  26SP      00008912Araraquara                                                                   00014746São Geraldo                                                             03 14804698 14804699I
+D  26SP      00008917Arealva                                                                      00076329Barras do Tietê                                                         01 17160530 17160539I
+D  26SP      00008917Arealva                                                                      00076336Chácaras Aurora                                                         01 17166540 17166559I
+D  26SP      00008917Arealva                                                                      00076338Condomínio Palmas del Rey                                               01 17169000 17169029I
+D  26SP      00008917Arealva                                                                      00076337Conjunto Habitacional Francisco Belo de Camargo                         01 17168040 17168049I
+D  26SP      00008917Arealva                                                                      00076326Domingos Aquilante                                                      01 17160390 17160399I
+D  26SP      00008917Arealva                                                                      00076335Eldorado                                                                01 17166530 17166539I
+D  26SP      00008917Arealva                                                                      00076334Jardim Colonial                                                         01 17166520 17166529I
+D  26SP      00008917Arealva                                                                      00076327Jardim da Praia                                                         01 17160510 17160519I
+D  26SP      00008917Arealva                                                                      00076333Jardim Primavera                                                        01 17166500 17166519I
+D  26SP      00008917Arealva                                                                      00076331Nova Marilândia                                                         01 17165030 17165039I
+D  26SP      00008917Arealva                                                                      00076069Portal Paraíso                                                          01 17160470 17160499I
+D  26SP      00008917Arealva                                                                      00076330Recanto dos Pássaros                                                    01 17165020 17165029I
+D  26SP      00008917Arealva                                                                      00076328Riviera do Tietê                                                        01 17160520 17160529I
+D  26SP      00008917Arealva                                                                      00076332Vale do Sol                                                             01 17165500 17165509I
+D  26SP      00008949Barra Bonita                                                                 00076320Área Rural de Barra Bonita                                              01 17349899 17349899I
+D  26SP      00008949Barra Bonita                                                                 00076285CECAP                                                                   01 17342560 17342579I
+D  26SP      00008949Barra Bonita                                                                 00030752Centro                                                                  01 17340001 17340079I
+D  26SP      00008949Barra Bonita                                                                 00076271Colina da Barra                                                         01 17340500 17340519I
+D  26SP      00008949Barra Bonita                                                                 00076290Conjunto Residencial Coronel José Victorino de França                   01 17345000 17345079I
+D  26SP      00008949Barra Bonita                                                                 00076318Distrito Industrial                                                     01 17347600 17347629I
+D  26SP      00008949Barra Bonita                                                                 00076317Jardim Alto da Barra                                                    01 17347520 17347539I
+D  26SP      00008949Barra Bonita                                                                 00076276Jardim Brasil                                                           01 17342180 17342199I
+D  26SP      00008949Barra Bonita                                                                 00076264Jardim Campos Salles                                                    01 17340080 17340099I
+D  26SP      00008949Barra Bonita                                                                 00076316Jardim da Barra                                                         01 17347500 17347519I
+D  26SP      00008949Barra Bonita                                                                 00076274Jardim das Dracenas                                                     01 17342050 17342089I
+D  26SP      00008949Barra Bonita                                                                 00076269Jardim das Orquídeas                                                    01 17340330 17340379I
+D  26SP      00008949Barra Bonita                                                                 00076283Jardim dos Ypês                                                         01 17342430 17342449I
+D  26SP      00008949Barra Bonita                                                                 00076314Jardim Nova Barra                                                       01 17347450 17347469I
+D  26SP      00008949Barra Bonita                                                                 00076286Jardim Nova Estância                                                    01 17342580 17342609I
+D  26SP      00008949Barra Bonita                                                                 00076273Jardim Panorama                                                         01 17342030 17342049I
+D  26SP      00008949Barra Bonita                                                                 00076312Jardim Pôr do Sol                                                       01 17347430 17347439I
+D  26SP      00008949Barra Bonita                                                                 00076284Jardim Samambaia                                                        01 17342500 17342559I
+D  26SP      00008949Barra Bonita                                                                 00076303Jardim Santa Elisa                                                      01 17347030 17347049I
+D  26SP      00008949Barra Bonita                                                                 00076280Jardim Santa Maria                                                      01 17342310 17342319I
+D  26SP      00008949Barra Bonita                                                                 00043698Jardim Vista Alegre                                                     01 17340100 17340129I
+D  26SP      00008949Barra Bonita                                                                 00076300Loteamento Vitória                                                      01 17345530 17345579I
+D  26SP      00008949Barra Bonita                                                                 00076292Núcleo Habitacional Benedito Francisco Maia                             01 17345110 17345129I
+D  26SP      00008949Barra Bonita                                                                 00076295Núcleo Habitacional Comendador Orlando Chesini Ometto                   01 17345300 17345349I
+D  26SP      00008949Barra Bonita                                                                 00076270Núcleo Habitacional de Barra Bonita                                     01 17340400 17340499I
+D  26SP      00008949Barra Bonita                                                                 00076291Núcleo Habitacional Naza Arradi Nahás                                   01 17345080 17345109I
+D  26SP      00008949Barra Bonita                                                                 00076288Parque Industrial São Domingos                                          01 17342630 17342669I
+D  26SP      00008949Barra Bonita                                                                 00076313Parque Residencial Bela Vista                                           01 17347440 17347449I
+D  26SP      00008949Barra Bonita                                                                 00076268Recanto da Barra                                                        01 17340250 17340269I
+D  26SP      00008949Barra Bonita                                                                 00076277Recanto Regina                                                          01 17342230 17342279I
+D  26SP      00008949Barra Bonita                                                                 00076310Recanto São Geraldo                                                     01 17347340 17347349I
+D  26SP      00008949Barra Bonita                                                                 00076301Residencial Bem Viver                                                   01 17345580 17345609I
+D  26SP      00008949Barra Bonita                                                                 00076311Residencial Casa Grande                                                 01 17347400 17347429I
+D  26SP      00008949Barra Bonita                                                                 00076287Residencial Cestari                                                     01 17342610 17342629I
+D  26SP      00008949Barra Bonita                                                                 00076279Residencial da Colina                                                   01 17342290 17342309I
+D  26SP      00008949Barra Bonita                                                                 00076281Residencial e Comercial Jardim Santa Helena                             01 17342370 17342399I
+D  26SP      00008949Barra Bonita                                                                 00076293Residencial e Comercial São Sebastião                                   01 17345250 17345259I
+D  26SP      00008949Barra Bonita                                                                 00076282Residencial Flamboyant                                                  01 17342400 17342429I
+D  26SP      00008949Barra Bonita                                                                 00076319Residencial Natale Spaulonci                                            01 17347630 17347659I
+D  26SP      00008949Barra Bonita                                                                 00076315Residencial Parque Barra Ville                                          01 17347470 17347499I
+D  26SP      00008949Barra Bonita                                                                 00076296Residencial São Domingos                                                01 17345400 17345409I
+D  26SP      00008949Barra Bonita                                                                 00076278Residencial Sargentim                                                   01 17342280 17342289I
+D  26SP      00008949Barra Bonita                                                                 00076275Residencial Stangherlin                                                 01 17342150 17342179I
+D  26SP      00008949Barra Bonita                                                                 00076304São Caetano                                                             01 17347200 17347239I
+D  26SP      00008949Barra Bonita                                                                 00076294Sonho Nosso I                                                           01 17345260 17345299I
+D  26SP      00008949Barra Bonita                                                                 00076297Sonho Nosso II                                                          01 17345410 17345449I
+D  26SP      00008949Barra Bonita                                                                 00076299Sonho Nosso IV                                                          01 17345500 17345529I
+D  26SP      00008949Barra Bonita                                                                 00076298Sonho Nosso V                                                           01 17345450 17345499I
+D  26SP      00008949Barra Bonita                                                                 00076308Vila Alcides Corrêa                                                     01 17347290 17347299I
+D  26SP      00008949Barra Bonita                                                                 00076309Vila Boca Rica                                                          01 17347300 17347339I
+D  26SP      00008949Barra Bonita                                                                 00076305Vila João Victorino                                                     01 17347240 17347249I
+D  26SP      00008949Barra Bonita                                                                 00076306Vila Maria Cristina                                                     01 17347250 17347269I
+D  26SP      00008949Barra Bonita                                                                 00049204Vila Narcisa                                                            01 17340190 17340249I
+D  26SP      00008949Barra Bonita                                                                 00076302Vila Nova                                                               01 17347000 17347029I
+D  26SP      00008949Barra Bonita                                                                 00076266Vila Operária                                                           01 17340130 17340189I
+D  26SP      00008949Barra Bonita                                                                 00076307Vila Ricci                                                              01 17347270 17347289I
+D  26SP      00008949Barra Bonita                                                                 00076272Vila São José                                                           01 17342000 17342029I
+D  26SP      00008954Barretos                                                                     00076025Alto Pimenta                                                            01 14781429 14781429I
+D  26SP      00008954Barretos                                                                     00015320Santana                                                                 02 14781428 14781428I
+D  26SP      00008962Bebedouro                                                                    00076017Jardim Europa                                                           01 14711641 14711702I
+D  26SP      00009005Caçapava                                                                     00076018Vila Jardim Ipiranga                                                    01 12282381 12282389I
+D  26SP      00009072Cordeirópolis                                                                00076205Área Rural de Cordeirópolis                                             01 13494890 13494899I
+D  26SP      00009072Cordeirópolis                                                                00076152Assentamento XX de Novembro                                             01 13491410 13491419I
+D  26SP      00009072Cordeirópolis                                                                00062623Bairro do Cascalho                                                      01 13492400 13492449I
+D  26SP      00009072Cordeirópolis                                                                00076140Barreirinho                                                             01 13490320 13490329I
+D  26SP      00009072Cordeirópolis                                                                00076151Barro Preto                                                             01 13491400 13491409I
+D  26SP      00009072Cordeirópolis                                                                00035638Centro                                                                  01 13490001 13490029I
+D  26SP      00009072Cordeirópolis                                                                00076158Conjunto Habitacional Angelo Betim                                      01 13492150 13492159I
+D  26SP      00009072Cordeirópolis                                                                00076188Conjunto Habitacional Bela Vista                                        01 13493000 13493019I
+D  26SP      00009072Cordeirópolis                                                                00076196Conjunto Habitacional Santa Luzia                                       01 13493220 13493249I
+D  26SP      00009072Cordeirópolis                                                                00076191Conjunto Habitacional São José I                                        01 13493060 13493079I
+D  26SP      00009072Cordeirópolis                                                                00076192Conjunto Habitacional São José II                                       01 13493080 13493089I
+D  26SP      00009072Cordeirópolis                                                                00076159Desmembramento Agostinho Trindade Silva                                 01 13492160 13492169I
+D  26SP      00009072Cordeirópolis                                                                00076131Desmembramento Fernando Barroso Ratto                                   01 13490050 13490059I
+D  26SP      00009072Cordeirópolis                                                                00076133Desmembramento Jafet                                                    01 13490080 13490099I
+D  26SP      00009072Cordeirópolis                                                                00076137Desmembramento Leandro Boteon                                           01 13490250 13490259I
+D  26SP      00009072Cordeirópolis                                                                00076144Desmembramento Mendes                                                   01 13491040 13491049I
+D  26SP      00009072Cordeirópolis                                                                00076130Desmembramento Odécio Roland                                            01 13490040 13490049I
+D  26SP      00009072Cordeirópolis                                                                00076165Distrito Industrial Alcides Fantussi                                    01 13492600 13492619I
+D  26SP      00009072Cordeirópolis                                                                00076202Distrito Industrial e Comercial Flamínio de Freitas Levy                01 13494010 13494029I
+D  26SP      00009072Cordeirópolis                                                                00076200Distrito Industrial Prefeito Geraldo Botion                             01 13494000 13494009I
+D  26SP      00009072Cordeirópolis                                                                00076189Jardim Bela Vista                                                       01 13493020 13493039I
+D  26SP      00009072Cordeirópolis                                                                00076203Jardim Cordeiro                                                         01 13494200 13494239I
+D  26SP      00009072Cordeirópolis                                                                00076204Jardim Cordeiro II                                                      01 13494240 13494259I
+D  26SP      00009072Cordeirópolis                                                                00076157Jardim Flamboyant                                                       01 13492140 13492149I
+D  26SP      00009072Cordeirópolis                                                                00076149Jardim José Corte                                                       01 13491150 13491179I
+D  26SP      00009072Cordeirópolis                                                                00076148Jardim Juventude                                                        01 13491130 13491149I
+D  26SP      00009072Cordeirópolis                                                                00076195Jardim Lise                                                             01 13493200 13493219I
+D  26SP      00009072Cordeirópolis                                                                00076134Jardim Módolo                                                           01 13490100 13490119I
+D  26SP      00009072Cordeirópolis                                                                00076156Jardim Paraíso                                                          01 13492130 13492139I
+D  26SP      00009072Cordeirópolis                                                                00076146Jardim Planalto                                                         01 13491090 13491119I
+D  26SP      00009072Cordeirópolis                                                                00076197Jardim Progresso                                                        01 13493250 13493289I
+D  26SP      00009072Cordeirópolis                                                                00076154Jardim Residencial do Bosque                                            01 13492010 13492029I
+D  26SP      00009072Cordeirópolis                                                                00076141Jardim Residencial Eldorado                                             01 13490330 13490359I
+D  26SP      00009072Cordeirópolis                                                                00076139Jardim Residencial Florença                                             01 13490280 13490319I
+D  26SP      00009072Cordeirópolis                                                                00076194Jardim Residencial Paraty                                               01 13493110 13493139I
+D  26SP      00009072Cordeirópolis                                                                00076198Jardim São Francisco                                                    01 13493290 13493319I
+D  26SP      00009072Cordeirópolis                                                                00076199Jardim São Luiz                                                         01 13493320 13493359I
+D  26SP      00009072Cordeirópolis                                                                00076135Jardim São Paulo                                                        01 13490120 13490129I
+D  26SP      00009072Cordeirópolis                                                                00076161Loteamento Industrial e Comercial Santa Marina                          01 13492200 13492229I
+D  26SP      00009072Cordeirópolis                                                                00076160Loteamento Industrial Pedro Boldrini                                    01 13492170 13492179I
+D  26SP      00009072Cordeirópolis                                                                00076164Residencial Portal das Torres                                           01 13492230 13492249I
+D  26SP      00009072Cordeirópolis                                                                00076150Residencial Santa Rita                                                  01 13491180 13491199I
+D  26SP      00009072Cordeirópolis                                                                00076187Santa Tereza                                                            01 13492700 13492709I
+D  26SP      00009072Cordeirópolis                                                                00076080São Joaquim                                                             01 13492100 13492109I
+D  26SP      00009072Cordeirópolis                                                                00076155Vila Barbosa                                                            01 13492110 13492129I
+D  26SP      00009072Cordeirópolis                                                                00076138Vila Boteon                                                             01 13490260 13490279I
+D  26SP      00009072Cordeirópolis                                                                00076136Vila das Palmeiras                                                      01 13490180 13490189I
+D  26SP      00009072Cordeirópolis                                                                00076193Vila Dona Loni Levy                                                     01 13493090 13493109I
+D  26SP      00009072Cordeirópolis                                                                00076143Vila dos Pinheiros                                                      01 13491020 13491039I
+D  26SP      00009072Cordeirópolis                                                                00076129Vila Lídia                                                              01 13490030 13490039I
+D  26SP      00009072Cordeirópolis                                                                00076142Vila Nossa Senhora Aparecida                                            01 13491000 13491019I
+D  26SP      00009072Cordeirópolis                                                                00076079Vila Nova Brasília                                                      01 13490150 13490179I
+D  26SP      00009072Cordeirópolis                                                                00076147Vila Olympia                                                            01 13491120 13491129I
+D  26SP      00009072Cordeirópolis                                                                00076153Vila Pereira                                                            01 13492000 13492009I
+D  26SP      00009072Cordeirópolis                                                                00076145Vila Primavera                                                          01 13491050 13491089I
+D  26SP      00009072Cordeirópolis                                                                00076132Vila Santo Antonio                                                      01 13490060 13490079I
+D  26SP      00009072Cordeirópolis                                                                00076190Vila São José                                                           01 13493040 13493059I
+D  26SP      00009082Cotia                                                                        00051174da Capelinha                                                            02 06729450 06729499I
+D  26SP      00009082Cotia                                                                        00052832dos Neves (Caucaia do Alto)                                             01 06729400 06729449U
+D  26SP      00009190Iacanga                                                                      00076015Parque São Judas Tadeu                                                  01 17180100 17180119I
+D  26SP      00009190Iacanga                                                                      00076240Quilombo                                                                01 17189000 17189099I
+D  26SP      00009190Iacanga                                                                      00076241São Vicente                                                             01 17189100 17189199I
+D  26SP      00009206Igaraçu do Tietê                                                             00076123Área Rural de Igaraçu do Tietê                                          01 17359899 17359899I
+D  26SP      00009206Igaraçu do Tietê                                                             00035682Centro                                                                  01 17350001 17350059I
+D  26SP      00009206Igaraçu do Tietê                                                             00076116Conjunto Habitacional Alfredo Fernandes                                 01 17354100 17354129I
+D  26SP      00009206Igaraçu do Tietê                                                             00076115Conjunto Habitacional Elvira Ortega Lemos                               01 17354080 17354099I
+D  26SP      00009206Igaraçu do Tietê                                                             00076117Conjunto Habitacional Igaraçu  I                                        01 17354130 17354179I
+D  26SP      00009206Igaraçu do Tietê                                                             00076114Conjunto Habitacional João Capelazzo                                    01 17354050 17354079I
+D  26SP      00009206Igaraçu do Tietê                                                             00076090Conjunto Residencial Segura Garcia                                      01 17350060 17350079I
+D  26SP      00009206Igaraçu do Tietê                                                             00076118Conjunto Residencial Segura Garcia II                                   01 17357000 17357019I
+D  26SP      00009206Igaraçu do Tietê                                                             00076122Distrito Industrial Comendador João Rayes                               01 17357240 17357259I
+D  26SP      00009206Igaraçu do Tietê                                                             00076113Distrito Industrial Vereador Paschoal Ruiz                              01 17354000 17354009I
+D  26SP      00009206Igaraçu do Tietê                                                             00076110Jardim Altos do Igaraçu                                                 01 17352400 17352419I
+D  26SP      00009206Igaraçu do Tietê                                                             00076096Jardim da Colina                                                        01 17350220 17350249I
+D  26SP      00009206Igaraçu do Tietê                                                             00076111Jardim das Acácias                                                      01 17352420 17352479I
+D  26SP      00009206Igaraçu do Tietê                                                             00076112Jardim dos Antúrios                                                     01 17352480 17352509I
+D  26SP      00009206Igaraçu do Tietê                                                             00076104Jardim Germano Roncari                                                  01 17352100 17352109I
+D  26SP      00009206Igaraçu do Tietê                                                             00076100Jardim Maria Carolina                                                   01 17350320 17350349I
+D  26SP      00009206Igaraçu do Tietê                                                             00076099Jardim Novo Estilo                                                      01 17350290 17350319I
+D  26SP      00009206Igaraçu do Tietê                                                             00076097Jardim Novo Igaraçu                                                     01 17350250 17350269I
+D  26SP      00009206Igaraçu do Tietê                                                             00076107Jardim Ouro Verde                                                       01 17352160 17352179I
+D  26SP      00009206Igaraçu do Tietê                                                             00076106Jardim Paulista                                                         01 17352140 17352159I
+D  26SP      00009206Igaraçu do Tietê                                                             00076094Jardim Portal da Colina                                                 01 17350200 17350209I
+D  26SP      00009206Igaraçu do Tietê                                                             00076095Jardim Portal da Colina III                                             01 17350210 17350219I
+D  26SP      00009206Igaraçu do Tietê                                                             00076121Núcleo Habitacional Comendador Orlando Chesini Ometto                   01 17357220 17357239I
+D  26SP      00009206Igaraçu do Tietê                                                             00076120Núcleo Habitacional Humberto Scaliza                                    01 17357200 17357219I
+D  26SP      00009206Igaraçu do Tietê                                                             00076093Recanto Dona Adélia                                                     01 17350150 17350159I
+D  26SP      00009206Igaraçu do Tietê                                                             00076103Residencial Nossa Gente                                                 01 17352020 17352059I
+D  26SP      00009206Igaraçu do Tietê                                                             00076101Residencial Park Boa Vista                                              01 17350600 17350639I
+D  26SP      00009206Igaraçu do Tietê                                                             00076108Residencial São José                                                    01 17352180 17352199I
+D  26SP      00009206Igaraçu do Tietê                                                             00076109Residencial São José II                                                 01 17352200 17352219I
+D  26SP      00009206Igaraçu do Tietê                                                             00076119Rio Lindo II                                                            01 17357020 17357039I
+D  26SP      00009206Igaraçu do Tietê                                                             00076098Vila Boa Vista                                                          01 17350270 17350289I
+D  26SP      00009206Igaraçu do Tietê                                                             00076105Vila Leozina                                                            01 17352110 17352139I
+D  26SP      00009206Igaraçu do Tietê                                                             00076091Vila Manoel Rayes                                                       01 17350080 17350109I
+D  26SP      00009206Igaraçu do Tietê                                                             00076092Vila Nossa Senhora Aparecida                                            01 17350110 17350149I
+D  26SP      00009206Igaraçu do Tietê                                                             00076102Vila Santa Isabel                                                       01 17352000 17352019I
+D  26SP      00009285Jaú                                                                          00076067Condomínio Residencial Bem Viver                                        01 17218020 17218039I
+D  26SP      00009285Jaú                                                                          00076068Jardim Alberto Ferrucci                                                 01 17218000 17218019I
+D  26SP      00009285Jaú                                                                          00076056Jardim dos Ipês                                                         01 17219000 17219029I
+D  26SP      00009285Jaú                                                                          00076059Jardim Geraldo Valentim II                                              01 17220450 17220459I
+D  26SP      00009285Jaú                                                                          00076057Jardim Santa Marta                                                      01 17219060 17219079I
+D  26SP      00009285Jaú                                                                          00076058Pedro Cruzeira                                                          01 17219030 17219059I
+D  26SP      00009295Jundiaí                                                                      00076070Loteamento Vila Pedra Bela                                              01 13210110 13210119I
+D  26SP      00009317Limeira                                                                      00042764Jardim Águas da Serra                                                   01 13482790 13482796U
+D  26SP      00009317Limeira                                                                      00076003Jardim Primavera                                                        02 13482797 13482802I
+D  26SP      00009317Limeira                                                                      00076003Jardim Primavera                                                        02 13482834 13482840I
+D  26SP      00009317Limeira                                                                      00037600Vila Agostinho Francisco de Assis                                       01 13482803 13482809I
+D  26SP      00009317Limeira                                                                      00037600Vila Agostinho Francisco de Assis                                       01 13482800 13482809D
+D  26SP      00009317Limeira                                                                      00038033Vila Residencial Treviso                                                01 13482831 13482833U
+D  26SP      00009477Penápolis                                                                    00076028Bairro Lageado                                                          01 16309450 16309469I
+D  26SP      00009493Piracicaba                                                                   00076006Pira-Pesca (Ártemis)                                                    01 13432050 13432059I
+D  26SP      00009529Presidente Alves                                                             00076014Conjunto Habitacional Antônio Rodrigues da Costa                        01 16673620 16673639I
+D  26SP      00009587Salto                                                                        00076031Parque Alto da Boa Vista                                                01 13323490 13323499I
+D  26SP      00009595Santa Bárbara D'Oeste                                                        00023685Jardim Miguel Cláudio Grego                                             01 13451150 13451153D
+D  26SP      00009595Santa Bárbara D'Oeste                                                        00023685Jardim Miguel Cláudio Grego                                             01 13451146 13451153I
+D  26SP      00009595Santa Bárbara D'Oeste                                                        00076066Parque Amarílis                                                         01 13453700 13453714I
+D  26SP      00009595Santa Bárbara D'Oeste                                                        00067561Residencial Bom Jardim                                                  01 13453690 13453699U
+D  26SP      00009595Santa Bárbara D'Oeste                                                        00023748Vila Grego II                                                           01 13451115 13451145U
+D  26SP      00009660São José dos Campos                                                          00065147Loteamento Portal Santa Inês                                            01 12226321 12226329D
+D  26SP      00009668São Paulo                                                                    00025810Jardim Itapura                                                          12 04467110 04467121U
+D  26SP      00009668São Paulo                                                                    00025858Jardim Liderança                                                        05 08240170 08240172U
+D  26SP      00009668São Paulo                                                                    00026288Parada                                                                  01 02987030 02987039U
+D  26SP      00009668São Paulo                                                                    00026390Parque Primavera                                                        07 04467140 04467160D
+D  26SP      00009668São Paulo                                                                    00026390Parque Primavera                                                        07 04467122 04467160I
+D  26SP      00009668São Paulo                                                                    00027070Vila Taquari                                                            11 08240165 08240169U
+D  26SP      00009726Taubaté                                                                      00076019Loteamento Araça                                                        01 12093221 12093229I
+D  26SP      00009788Votorantim                                                                   00076023Villa Bella de Votorantim                                               01 18117761 18117779I
+D  26SP      00009789Votuporanga                                                                  00076022Jardim Paulista                                                         01 15500530 15500539I
+D  26SP      00009789Votuporanga                                                                  00076020Jardim São Paulo                                                        01 15500500 15500509I
+D  26SP      00009789Votuporanga                                                                  00028955Jardim Yolanda                                                          02 15500540 15500549I
+D  26SP      00009789Votuporanga                                                                  00076021Residencial Max                                                         01 15500520 15500529I
+D  26SP      00009789Votuporanga                                                                  00028991Vila Budim                                                              01 15500140 15500142U
+#

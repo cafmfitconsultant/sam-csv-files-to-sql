@@ -1,0 +1,80 @@
+C D2102  25 MAR 2021    © COPYRIGHT CORREIOS                 LOCALIDADES                                                                                                  
+DBRSP      00009072Cordeirópolis                                                                   Cordeirópolis                       MC              SPI3512407U13490000
+DBRSP      00009206Igaraçu do Tietê                                                                Igaraçu Tietê                       MC              SPI3520004U17350000
+DBRMG      00003813Santos Dumont                                                                   Santos Dumont                       MC              MG 3160702U36240000
+DBRCE      00015365João de Castro                                                          61755000João Castro                         DN      00001156CE        I        
+DBRAC      00015367Terra Indígena Alto Tarauacá                                            69979820Terra I At Tarauacá                 PN      00000009ACR       I        
+DBRAC      00015393Terra Indígena Mamoadate                                                69944810Terra I Mamoadate                   PN      00000019ACR       I        
+DBRAC      00015398Terra Indígena Riozinho do Alto Envira                                  69959810Terra I R At Envira                 PN      00000018ACR       I        
+DBRAM      00015366Terra Indígena Alto Rio Negro                                           69799810Terra I At R Negro                  PN      00000266AM        I        
+DBRAM      00015392Terra Indígena Hi Merimã                                                69484810Terra I H Merimã                    PN      00000271AM        I        
+DBRAM      00015411Terra Indígena Vale do Javari                                           69889810Terra Indígena Vale do Javari       PN      00000222AM        I        
+DBRAM      00015412Terra Indígena Vale do Javari                                           69899810Terra Indígena Vale do Javari       PN      00000227AM        I        
+DBRAM      00015413Terra Indígena Vale do Javari                                           69894810Terra Indígena Vale do Javari       PN      00000231AM        I        
+DBRAM      00015414Terra Indígena Vale do Javari                                           69669810Terra Indígena Vale do Javari       PN      00000238AM        I        
+DBRAM      00015415Terra Indígena Vale do Javari                                           69619810Terra Indígena Vale do Javari       PN      00000267AM        I        
+DBRAM      00015416Terra Indígena waimiri-Atroari                                          69739810Terra I waimiri-Atroari             PN      00000259AM        I        
+DBRAM      00015417Terra Indígena waimiri-Atroari                                          69134810Terra Indígena waimiri-Atroari      PN      00000275AM        I        
+DBRAM      00015420Terra Indígena Yanomami                                                 69749810Terra Indígena Yanomami             PN      00000262AM        I        
+DBRAM      00015421Terra Indígena Yanomami                                                 69799820Terra Indígena Yanomami             PN      00000266AM        I        
+DBRAM      00015428Terra Indígena Zuruahã                                                  69484820Terra I Zuruahã                     PN      00000271AM        I        
+DBRGO      00015380Terra Indígena Avá-Canoeiro                                             76459810Terra I Avá-Canoeiro                PN      00002233GO        I        
+DBRMA      00015368Terra Indígena Alto Turiaçu                                             65288810Terra Indígena Alto Turiaçu         PN      00002433MA        I        
+DBRMA      00015369Terra Indígena Alto Turiaçu                                             65299810Terra Indígena Alto Turiaçu         PN      00002434MA        I        
+DBRMA      00015370Terra Indígena Alto Turiaçu                                             65283810Terra Indígena Alto Turiaçu         PN      00002502MA        I        
+DBRMA      00015371Terra Indígena Alto Turiaçu                                             65274810Terra Indígena Alto Turiaçu         PN      00002519MA        I        
+DBRMA      00015372Terra Indígena Alto Turiaçu                                             65367810Terra Indígena Alto Turiaçu         PN      00002619MA        I        
+DBRMA      00015373Terra Indígena Arariboia                                                65947810Terra Indígena Arariboia            PN      00002386MA        I        
+DBRMA      00015374Terra Indígena Arariboia                                                65397810Terra Indígena Arariboia            PN      00002409MA        I        
+DBRMA      00015375Terra Indígena Arariboia                                                65394810Terra Indígena Arariboia            PN      00002418MA        I        
+DBRMA      00015376Terra Indígena Arariboia                                                65942810Terra Indígena Arariboia            PN      00002468MA        I        
+DBRMA      00015377Terra Indígena Arariboia                                                65392810Terra Indígena Arariboia            PN      00002563MA        I        
+DBRMA      00015381Terra Indígena Awa                                                      65299820Terra I Awa                         PN      00002434MA        I        
+DBRMA      00015382Terra Indígena Awa                                                      65364810Terra Indígena Awa                  PN      00002465MA        I        
+DBRMA      00015383Terra Indígena Awa                                                      65274820Terra Indígena Awa                  PN      00002519MA        I        
+DBRMA      00015384Terra Indígena Awa                                                      65389810Terra Indígena Awa                  PN      00002580MA        I        
+DBRMA      00015385Terra Indígena Awa                                                      65367820Terra Indígena Awa                  PN      00002619MA        I        
+DBRMA      00015387Terra Indígena Caru                                                     65384820Terra Indígena Caru                 PN      00002408MA        I        
+DBRMA      00015388Terra Indígena Caru                                                     65389830Terra Indígena Caru                 PN      00002580MA        I        
+DBRMT      00015389Terra Indígena Enawenê-Nawê                                             78319810Terra Indígena Enawenê-Nawê         PN      00004337MT        I        
+DBRMT      00015390Terra Indígena Enawenê-Nawê                                             78324810Terra Indígena Enawenê-Nawê         PN      00004384MT        I        
+DBRMT      00015391Terra Indígena Enawenê-Nawê                                             78369810Terra Indígena Enawenê-Nawê         PN      00004490MT        I        
+DBRMT      00015394Terra Indígena Piripkura                                                78339810Terra I Piripkura                   PN      00010093MT        I        
+DBRPA      00015378Terra Indígena Araweté Igarapé Ipixuna                                  68382820Terra Indígena Araweté Igarapé IpixuPN      00004781PA        I        
+DBRPA      00015379Terra Indígena Araweté Igarapé Ipixuna                                  68364810Terra Indígena Araweté Igarapé IpixuPN      00004808PA        I        
+DBRPA      00015386Terra Indígena Cachoeira Seca                                           68139810Terra Indígena Cachoeira Seca       PN      00004743PA        I        
+DBRPA      00015427Terra Indígena Zoe                                                      68279810Terra I Zoe                         PN      00004719PA        I        
+DBRRO      00015395Terra Indígena Rio Branco                                               76959810Terra Indígena Rio Branco           PN      00007342RO        I        
+DBRRO      00015396Terra Indígena Rio Branco                                               76933810Terra Indígena Rio Branco           PN      00007362RO        I        
+DBRRO      00015397Terra Indígena Rio Omerê                                                76996810Terra I R Omerê                     PN      00007327RO        I        
+DBRRO      00015399Terra Indígena Tanaru                                                   76996820Terra Indígena Tanaru               PN      00007327RO        I        
+DBRRO      00015400Terra Indígena Tanaru                                                   76979810Terra Indígena Tanaru               PN      00007348RO        I        
+DBRRO      00015401Terra Indígena Tanaru                                                   76999810Terra Indígena Tanaru               PN      00007351RO        I        
+DBRRO      00015402Terra Indígena Uru-Eu-Wau-Wau                                           76889810Terra Indígena Uru-Eu-Wau-Wau       PN      00007318RO        I        
+DBRRO      00015403Terra Indígena Uru-Eu-Wau-Wau                                           76887810Terra Indígena Uru-Eu-Wau-Wau       PN      00007321RO        I        
+DBRRO      00015404Terra Indígena Uru-Eu-Wau-Wau                                           76899810Terra Indígena Uru-Eu-Wau-Wau       PN      00007331RO        I        
+DBRRO      00015405Terra Indígena Uru-Eu-Wau-Wau                                           76856810Terra Indígena Uru-Eu-Wau-Wau       PN      00007332RO        I        
+DBRRO      00015406Terra Indígena Uru-Eu-Wau-Wau                                           76897810Terra Indígena Uru-Eu-Wau-Wau       PN      00007335RO        I        
+DBRRO      00015407Terra Indígena Uru-Eu-Wau-Wau                                           76927810Terra Indígena Uru-Eu-Wau-Wau       PN      00007340RO        I        
+DBRRO      00015408Terra Indígena Uru-Eu-Wau-Wau                                           76888810Terra Indígena Uru-Eu-Wau-Wau       PN      00007341RO        I        
+DBRRO      00015409Terra Indígena Uru-Eu-Wau-Wau                                           76933820Terra Indígena Uru-Eu-Wau-Wau       PN      00007362RO        I        
+DBRRO      00015410Terra Indígena Uru-Eu-Wau-Wau                                           76934810Terra Indígena Uru-Eu-Wau-Wau       PN      00007363RO        I        
+DBRRR      00015418Terra Indígena waimiri-Atroari                                          69374820Terra Indígena waimiri-Atroari      PN      00007384RR        I        
+DBRRR      00015419Terra Indígena waimiri-Atroari                                          69377810Terra Indígena waimiri-Atroari      PN      00007385RR        I        
+DBRRR      00015422Terra Indígena Yanomami                                                 69354810Terra Indígena Yanomami             PN      00007373RR        I        
+DBRRR      00015423Terra Indígena Yanomami                                                 69344810Terra Indígena Yanomami             PN      00007374RR        I        
+DBRRR      00015424Terra Indígena Yanomami                                                 69369810Terra Indígena Yanomami             PN      00007378RR        I        
+DBRRR      00015425Terra Indígena Yanomami                                                 69349810Terra Indígena Yanomami             PN      00007380RR        I        
+DBRRR      00015426Terra Indígena Yanomami                                                 69342810Terra Indígena Yanomami             PN      00007381RR        I        
+DBRMT      00015429Nova União                                                              78334500Nova União                          DN      00004341MT        I        
+DBRBA      00015438Mandacaru                                                               48924200Mandacaru                           DN      00000759BA        I        
+DBRSP      00008949Barra Bonita                                                                    Barra Bonita                        MC              SPI3505302U17340000
+DBRAM      00015430Terra Indígena Vale do Javari                                           69639810Terra Indígena Vale do Javari       PN      00000206AM        I        
+DBRAM      00015431Terra Indígena Pirahã                                                   69299810Terra I Pirahã                      PN      00000244AM        I        
+DBRPA      00015432Terra Indígena Cachoeira Seca                                           68142810Terra Indígena Cachoeira Seca       PN      00004826PA        I        
+DBRRO      00015433Terra Indígena Uru-Eu-Wau-Wau                                           76939810Terra Indígena Uru-Eu-Wau-Wau       PN      00007328RO        I        
+DBRRO      00015434Terra Indígena Uru-Eu-Wau-Wau                                           76859810Terra Indígena Uru-Eu-Wau-Wau       PN      00007343RO        I        
+DBRRO      00015435Terra Indígena Massaco                                                  76936810Terra I Massaco                     PN      00007361RO        I        
+DBRRO      00015436Terra Indígena Rio Branco                                               76936820Terra Indígena Rio Branco           PN      00007361RO        I        
+DBRRO      00015437Terra Indígena Uru-Eu-Wau-Wau                                           76936830Terra Indígena Uru-Eu-Wau-Wau       PN      00007361RO        I        
+#

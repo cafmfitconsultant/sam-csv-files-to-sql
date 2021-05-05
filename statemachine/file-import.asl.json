@@ -1,0 +1,42 @@
+{
+    "Comment": "A state machine that does mock stock trading.",
+    "StartAt": "Unzip edne file",
+    "States": {
+        "Unzip edne file": {
+            "Type": "Task",
+            "Resource": "${FileUnziperFunctionArn}",
+            "Retry": [
+                {
+                    "ErrorEquals": [
+                        "States.TaskFailed"
+                    ]
+                }
+            ],
+            "Next": "Transform edne data"
+        },
+        "Transform edne data": {
+            "Type": "Task",
+            "Resource": "${DataTransformerFunctionArn}",
+            "Retry": [
+                {
+                    "ErrorEquals": [
+                        "States.TaskFailed"
+                    ]
+                }
+            ],
+            "Next": "Save edne data"
+        },
+        "Save edne data": {
+            "Type": "Task",
+            "Resource": "${DataSaverFunctionArn}",
+            "Retry": [
+                {
+                    "ErrorEquals": [
+                        "States.TaskFailed"
+                    ]
+                }
+            ],
+            "End": true
+        }
+    }
+}
