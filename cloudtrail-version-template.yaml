@@ -27,7 +27,7 @@ Resources:
           - '-'
           - - file-import-state-machine
             - !Ref EnvName
-      DefinitionUri: statemachine/file-import.asl.json
+      DefinitionUri: cloudtrail-statemachine/file-import.asl.json
       DefinitionSubstitutions:
         FileUnziperFunctionArn: !GetAtt FileUnziperFunction.Arn
         DataTransformerFunctionArn: !GetAtt DataTransformerFunction.Arn

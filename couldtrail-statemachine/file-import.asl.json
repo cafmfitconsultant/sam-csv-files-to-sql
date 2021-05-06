@@ -1,8 +1,8 @@
 {
     "Comment": "A state machine that does mock stock trading.",
-    "StartAt": "Unzip edne file",
+    "StartAt": "Unzip csv file",
     "States": {
-        "Unzip edne file": {
+        "Unzip csv file": {
             "Type": "Task",
             "Resource": "${FileUnziperFunctionArn}",
             "Retry": [
@@ -12,9 +12,9 @@
                     ]
                 }
             ],
-            "Next": "Transform edne data"
+            "Next": "Transform csv data"
         },
-        "Transform edne data": {
+        "Transform csv data": {
             "Type": "Task",
             "Resource": "${DataTransformerFunctionArn}",
             "Retry": [
@@ -24,9 +24,9 @@
                     ]
                 }
             ],
-            "Next": "Save edne data"
+            "Next": "Save csv data"
         },
-        "Save edne data": {
+        "Save csv data": {
             "Type": "Task",
             "Resource": "${DataSaverFunctionArn}",
             "Retry": [

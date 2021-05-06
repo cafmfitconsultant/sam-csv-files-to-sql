@@ -1,0 +1,24 @@
+{
+  "name": "sam-csv-files-to-sql",
+  "version": "1.0.0",
+  "description": "This project contains source code and supporting files for a serverless application that you can deploy with the SAM CLI. It includes the following files and folders:",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cafmfitconsultant/sam-csv-files-to-sql.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cafmfitconsultant/sam-csv-files-to-sql/issues"
+  },
+  "homepage": "https://github.com/cafmfitconsultant/sam-csv-files-to-sql#readme",
+  "dependencies": {
+    "aws-sdk": "2.901.0",
+    "file-type": "^16.4.0",
+    "unzipper": "^0.10.11"
+  }
+}
