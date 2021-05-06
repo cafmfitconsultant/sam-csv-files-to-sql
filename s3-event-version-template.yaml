@@ -1,0 +1,201 @@
+AWSTemplateFormatVersion: "2010-09-09"
+Transform: AWS::Serverless-2016-10-31
+Description: >
+  sam-csv-files-to-sql
+
+  Sample SAM Template for  sam-csv-files-to-sql
+
+Parameters:
+  # SourceObjectKey:
+  #   Description: 'S3 source artifact'
+  #   Type: String
+  #   Default: eDNE_Delta_Basico_2102.zip
+  
+  EnvName:
+    Type: String
+    Description: Name of an environment. 
+    AllowedPattern: ^.*[^0-9]$
+    ConstraintDescription: Must end with non-numeric character.
+    Default: 'cafmf'
+
+Resources:
+  FileImportStateMachine:
+    Type: AWS::Serverless::StateMachine # More info about State Machine Resource: https://docs.aws.amazon.com/serverless-application-model/latest/developerguide/sam-resource-statemachine.html
+    Properties:
+      Name:
+        !Join 
+          - '-'
+          - - file-import-state-machine
+            - !Ref EnvName
+      DefinitionUri: statemachine/file-import.asl.json
+      DefinitionSubstitutions:
+        FileUnziperFunctionArn: !GetAtt FileUnziperFunction.Arn
+        DataTransformerFunctionArn: !GetAtt DataTransformerFunction.Arn
+        DataSaverFunctionArn: !GetAtt DataSaverFunction.Arn
+      Policies: # Find out more about SAM policy templates: https://docs.aws.amazon.com/serverless-application-model/latest/developerguide/serverless-policy-templates.html
+        - LambdaInvokePolicy:
+            FunctionName: !Ref FileUnziperFunction
+        - LambdaInvokePolicy:
+            FunctionName: !Ref DataTransformerFunction
+        - LambdaInvokePolicy:
+            FunctionName: !Ref DataSaverFunction
+
+  FileUnziperFunction:
+    Type: AWS::Serverless::Function # More info about Function Resource: https://docs.aws.amazon.com/serverless-application-model/latest/developerguide/sam-resource-function.html
+    Properties:
+      CodeUri: functions/file-unziper/
+      Handler: app.lambdaHandler
+      Runtime: nodejs14.x
+
+  DataTransformerFunction:
+    Type: AWS::Serverless::Function
+    Properties:
+      CodeUri: functions/data-transformer/
+      Handler: app.lambdaHandler
+      Runtime: nodejs14.x
+
+  DataSaverFunction:
+    Type: AWS::Serverless::Function
+    Properties:
+      CodeUri: functions/data-saver/
+      Handler: app.lambdaHandler
+      Runtime: nodejs14.x
+  
+  FileRepositoryBucket:
+    Type: AWS::S3::Bucket
+    Properties:
+      BucketName: 
+          !Join 
+            - '-'
+            - - file-repository-bucket
+              - !Ref EnvName
+
+  AWSCloudTrailBucketPolicy:
+    Type: AWS::S3::BucketPolicy
+    Properties:
+      Bucket: !Ref AWSCloudTrailBucket
+      PolicyDocument:
+        Version: 2012-10-17
+        Statement:
+          -
+            Sid: AWSCloudTrailAclCheck
+            Effect: Allow
+            Principal:
+              Service:
+                - cloudtrail.amazonaws.com
+            Action: s3:GetBucketAcl
+            Resource: !GetAtt AWSCloudTrailBucket.Arn
+          -
+            Sid: AWSCloudTrailWrite
+            Effect: Allow
+            Principal:
+              Service:
+                - cloudtrail.amazonaws.com
+            Action: s3:PutObject
+            Resource: !Join [ '', [ !GetAtt AWSCloudTrailBucket.Arn, '/AWSLogs/', !Ref 'AWS::AccountId', '/*' ] ]
+            Condition: 
+              StringEquals:
+                s3:x-amz-acl: bucket-owner-full-control
+
+  AWSCloudTrailBucket:
+    Type: AWS::S3::Bucket
+    Properties:
+      BucketName: 
+          !Join 
+            - '-'
+            - -  sam-csv-files-to-sql-cloudtrail-bucket
+              - !Ref EnvName
+
+  AwsCloudTrail:
+    Type: AWS::CloudTrail::Trail
+    DependsOn: 
+      - AWSCloudTrailBucketPolicy
+    Properties:
+      S3BucketName: !Ref AWSCloudTrailBucket
+      TrailName: 
+        !Join 
+              - '-'
+              - - sam-csv-files-to-sql-cloudtrail
+                - !Ref EnvName
+      EventSelectors:
+        - IncludeManagementEvents: true
+        -
+          DataResources:
+            -
+              Type: AWS::S3::Object
+              Values: 
+                - !Join 
+                    - ''
+                    - - !GetAtt FileRepositoryBucket.Arn
+                      - '/'
+          ReadWriteType: WriteOnly
+      IncludeGlobalServiceEvents: false
+      IsLogging: true
+      IsMultiRegionTrail: false
+
+  StatesExecutionRole:
+    Type: "AWS::IAM::Role"
+    Properties:
+      AssumeRolePolicyDocument:
+        Version: "2012-10-17"
+        Statement:
+          - Effect: Allow
+            Principal:
+              Service: events.amazonaws.com
+            Action: "sts:AssumeRole"
+      Path: "/"
+      Policies:
+        - PolicyName: StatesExecutionPolicy
+          PolicyDocument:
+            Version: "2012-10-17"
+            Statement:
+              - Effect: Allow
+                Action:
+                  - "states:StartExecution"
+                Resource: 
+                   Fn::GetAtt: 
+                      - "FileImportStateMachine"
+                      - "Arn"
+
+  EventRule: 
+    Type: AWS::Events::Rule
+    Properties: 
+      Name: 
+        !Join 
+          - '-'
+          - - file-repository-event-rule
+            - !Ref EnvName
+      Description: "EventRule"
+      State: "ENABLED"
+      EventPattern: 
+        source: 
+          - "aws.s3"
+        detail: 
+          eventName: 
+            - "PutObject"
+          requestParameters:
+            bucketName: 
+              - !Ref FileRepositoryBucket
+      Targets: 
+        -
+          Arn: 
+            Fn::GetAtt: 
+              - "FileImportStateMachine"
+              - "Arn"
+          Id: "FileImportStateMachineTarget"
+          RoleArn: 
+            !GetAtt 
+              - StatesExecutionRole
+              - Arn
+
+  PermissionForEventsToInvokeLambda: 
+    Type: AWS::Lambda::Permission
+    Properties: 
+      FunctionName: 
+        Ref: "FileUnziperFunction"
+      Action: "lambda:InvokeFunction"
+      Principal: "events.amazonaws.com"
+      SourceArn: 
+        Fn::GetAtt: 
+          - "EventRule"
+          - "Arn"
