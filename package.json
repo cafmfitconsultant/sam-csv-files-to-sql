@@ -18,7 +18,8 @@
   "homepage": "https://github.com/cafmfitconsultant/sam-csv-files-to-sql#readme",
   "dependencies": {
     "aws-sdk": "2.901.0",
-    "file-type": "^16.4.0",
-    "unzipper": "^0.10.11"
+    "csvtojson": "2.0.10",
+    "file-type": "16.4.0",
+    "unzipper": "0.10.11"
   }
 }

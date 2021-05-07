@@ -6,11 +6,6 @@ Description: >
   Sample SAM Template for  sam-csv-files-to-sql
 
 Parameters:
-  FileRepositoryBucketFileKey:
-    Description: S3 Object key
-    Type: String
-    Default: zip
-
   FileRepositoryBucketName:
     Type: String
     Description: "REQUIRED: Unique S3 bucket name to use for the app."
@@ -50,11 +45,8 @@ Resources:
       DefinitionSubstitutions:
         DataTransformerFunctionArn: !GetAtt DataTransformerFunction.Arn
         DataSaverFunctionArn: !GetAtt DataSaverFunction.Arn
-      Policies: # Find out more about SAM policy templates: https://docs.aws.amazon.com/serverless-application-model/latest/developerguide/serverless-policy-templates.html
-        - LambdaInvokePolicy:
-            FunctionName: !Ref DataTransformerFunction
-        - LambdaInvokePolicy:
-            FunctionName: !Ref DataSaverFunction
+      Role:
+        !GetAtt StateMachineExecutionRole.Arn
 
   DataTransformerFunction:
     Type: AWS::Serverless::Function
@@ -62,6 +54,10 @@ Resources:
       CodeUri: functions/data-transformer/
       Handler: app.lambdaHandler
       Runtime: nodejs14.x
+      Timeout: 60
+      Layers:
+        - !Ref NodeModuleLayer
+      Role: !GetAtt StepsExecutionRole.Arn
 
   FileRepositoryBucket:
     Type: AWS::S3::Bucket
@@ -104,6 +100,9 @@ Resources:
       CodeUri: functions/data-saver/
       Handler: app.lambdaHandler
       Runtime: nodejs14.x
+      Layers:
+        - !Ref NodeModuleLayer
+      Role: !GetAtt StepsExecutionRole.Arn
 
   S3WatcherFunction:
     Type: AWS::Serverless::Function # More info about Function Resource: https://docs.aws.amazon.com/serverless-application-model/latest/developerguide/sam-resource-function.html
@@ -112,11 +111,74 @@ Resources:
       Handler: app.lambdaHandler
       Runtime: nodejs14.x
       Role: !GetAtt S3WatcherExecutionRole.Arn
+      Timeout: 30
       Layers:
         - !Ref NodeModuleLayer
       Environment:
         Variables:
           statemachine_arn: !Ref FileImportStateMachine
+
+  StateMachineExecutionRole:
+    Type: AWS::IAM::Role
+    Properties:
+      AssumeRolePolicyDocument:
+        Version: "2012-10-17"
+        Statement:
+          - Effect: Allow
+            Principal: { Service: [states.amazonaws.com] }
+            Action: ["sts:AssumeRole"]
+      Path: /
+      ManagedPolicyArns:
+        - "arn:aws:iam::aws:policy/service-role/AWSLambdaBasicExecutionRole"
+      Policies:
+        - PolicyName: S3AccessPolicy
+          PolicyDocument:
+            Version: "2012-10-17"
+            Statement:
+              - Effect: Allow
+                Action:
+                  - "s3:PutObject"
+                  - "s3:GetObject"
+                Resource: 
+                  !Join
+                    - ""
+                    - - "arn:aws:s3:::"
+                      - !Join
+                        - "-"
+                        - - !Ref FileRepositoryBucketName
+                          - !Ref EnvName
+                      - "/*"
+
+  StepsExecutionRole:
+    Type: AWS::IAM::Role
+    Properties:
+      AssumeRolePolicyDocument:
+        Version: "2012-10-17"
+        Statement:
+          - Effect: Allow
+            Principal: { Service: [lambda.amazonaws.com] }
+            Action: ["sts:AssumeRole"]
+      Path: /
+      ManagedPolicyArns:
+        - "arn:aws:iam::aws:policy/service-role/AWSLambdaBasicExecutionRole"
+      Policies:
+        - PolicyName: FullPolicy
+          PolicyDocument:
+            Version: "2012-10-17"
+            Statement:
+              - Effect: Allow
+                Action:
+                  - "s3:PutObject"
+                  - "s3:GetObject"
+                Resource: 
+                  !Join
+                    - ""
+                    - - "arn:aws:s3:::"
+                      - !Join
+                        - "-"
+                        - - !Ref FileRepositoryBucketName
+                          - !Ref EnvName
+                      - "/*"
 
   S3WatcherExecutionRole:
     Type: AWS::IAM::Role
@@ -142,6 +204,7 @@ Resources:
               - Effect: Allow
                 Action:
                   - "s3:PutObject"
+                  - "s3:GetObject"
                 Resource: 
                   !Join
                     - ""
@@ -150,5 +213,4 @@ Resources:
                         - "-"
                         - - !Ref FileRepositoryBucketName
                           - !Ref EnvName
-                      - "/"
-                      - !Ref FileRepositoryBucketFileKey
+                      - "/*"

@@ -7,5 +7,5 @@ s3_bucket = "aws-sam-cli-managed-default-samclisourcebucket-nwoa2660e34"
 s3_prefix = "sam-csv-files-to-sql"
 region = "us-east-1"
 capabilities = "CAPABILITY_IAM"
-parameter_overrides = "EnvName=\"cafmf\""
+parameter_overrides = "FileRepositoryBucketName=\"file-repository-bucket\" EnvName=\"cafmf\""
 confirm_changeset = true
