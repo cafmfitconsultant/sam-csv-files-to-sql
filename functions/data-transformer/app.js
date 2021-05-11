@@ -25,7 +25,7 @@ const deltaLogBairroParserParameters = {
 };
 const deltaLogFaixaBairroParserParameters = {
     delimiter: "@",
-    headers: ["bai_nu", "fcb_cep_ini", "fcb_cep_fim", "fcb_operacao", "bai_no_abrev", "bai_operacao"],
+    headers: ["bai_nu", "fcb_cep_ini", "fcb_cep_fim", "fcb_operacao"],
     checkColumn: true,
 };
 const deltaLogCpcParserParameters = {
@@ -66,11 +66,11 @@ const deltaLogFaixoUopParserParameters = {
 
 const getFilesPathInfo = (currentFolder) => {
     const filesParseInfo = [
-        { key: "1", origin: `raw/${currentFolder}/DELTA_LOG_FAIXA_UF.csv`, destination: `json/${currentFolder}/DELTA_LOG_FAIXA_UF.json`, parseInfo: deltaLogFaixaUFParserParameters },
+        { origin: `raw/${currentFolder}/DELTA_LOG_FAIXA_UF.csv`, destination: `json/${currentFolder}/DELTA_LOG_FAIXA_UF.json`, parseInfo: deltaLogFaixaUFParserParameters },
         { origin: `raw/${currentFolder}/DELTA_LOG_LOCALIDADE.csv`, destination: `json/${currentFolder}/DELTA_LOG_LOCALIDADE.json`, parseInfo: deltaLoglocalidadeParserParameters },
         { origin: `raw/${currentFolder}/DELTA_LOG_FAIXA_LOC.csv`, destination: `json/${currentFolder}/DELTA_LOG_FAIXA_LOC.json`, parseInfo: deltaLogFaixaLocParserParameters },
         { origin: `raw/${currentFolder}/DELTA_LOG_BAIRRO.csv`, destination: `json/${currentFolder}/DELTA_LOG_BAIRRO.json`, parseInfo: deltaLogBairroParserParameters },
-        { origin: `raw/${currentFolder}/DELTA_LOG_FAIXA_BAIRRO.csv`, destination: `json/${currentFolder}/DELTA_LOG_FAIXA_BAIRRO.json`, parseInfo: deltaLogFaixaBairroParserParameters },
+        { origin: `raw/${currentFolder}/DELTA_LOG_FAIXA_BAI.csv`, destination: `json/${currentFolder}/DELTA_LOG_FAIXA_BAIRRO.json`, parseInfo: deltaLogFaixaBairroParserParameters },
         { origin: `raw/${currentFolder}/DELTA_LOG_CPC.csv`, destination: `json/${currentFolder}/DELTA_LOG_CPC.json`, parseInfo: deltaLogCpcParserParameters },
         { origin: `raw/${currentFolder}/DELTA_LOG_FAIXA_CPC.csv`, destination: `json/${currentFolder}/DELTA_LOG_FAIXA_CPC.json`, parseInfo: deltaLogFaixaCpcParserParameters },
         { origin: `raw/${currentFolder}/DELTA_LOG_LOGRADOURO.csv`, destination: `json/${currentFolder}/DELTA_LOG_LOGRADOURO.json`, parseInfo: deltaLogLogradouroParserParameters },
@@ -87,37 +87,32 @@ const csv = require('csvtojson');
 exports.lambdaHandler = async (event) => {
     const { result: { bucketName, currentFolder, files } } = event;
     const infos = getFilesPathInfo(currentFolder);
-    try {
-        const jsonFiles = [];
-        for (const file of files) {
-            const getParams = {
-                Bucket: bucketName,
-                Key: file
-            };
-            const { Body: buffer } = await s3.getObject(getParams).promise();
-            const info = infos.find(f => f.origin === file);
-            const csvStr = buffer.toString();
-            const converter = csv(info.parseInfo);
-            const jsonArray = await converter.fromString(csvStr);
-            const key = info.destination;
-            const putParams = {
-                Bucket: bucketName,
-                Key: key,
-                Body: JSON.stringify(jsonArray),
-                ContentType: 'application/json'
-            }
-            await s3.putObject(putParams).promise();
-            jsonFiles.push(key);
-        }
-        const nextStepInfo = {
-            currentFolder,
-            bucketName,
-            jsonFiles
+    const jsonFiles = [];
+    for (const file of files) {
+        const getParams = {
+            Bucket: bucketName,
+            Key: file
         };
-
-        return nextStepInfo;
-
-    } catch (error) {
-        console.log(error);
+        const { Body: buffer } = await s3.getObject(getParams).promise();
+        const info = infos.find(f => f.origin === file);
+        const csvStr = buffer.toString();
+        const converter = csv(info.parseInfo);
+        const jsonArray = await converter.fromString(csvStr);
+        const key = info.destination;
+        const putParams = {
+            Bucket: bucketName,
+            Key: key,
+            Body: JSON.stringify(jsonArray),
+            ContentType: 'application/json'
+        }
+        await s3.putObject(putParams).promise();
+        jsonFiles.push(key);
     }
+    const nextStepInfo = {
+        currentFolder,
+        bucketName,
+        jsonFiles
+    };
+
+    return nextStepInfo;
 };

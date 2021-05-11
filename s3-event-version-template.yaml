@@ -103,9 +103,16 @@ Resources:
       CodeUri: functions/data-saver/
       Handler: app.lambdaHandler
       Runtime: nodejs14.x
+      Timeout: 60
       Layers:
         - !Ref NodeModuleLayer
       Role: !GetAtt StepsExecutionRole.Arn
+      VpcConfig:
+        SecurityGroupIds:
+          - sg-0b915fae7b3be279f
+        SubnetIds:
+          - subnet-03265512a856c2047
+          - subnet-0dba85950181f1b8a
 
   S3WatcherFunction:
     Type: AWS::Serverless::Function # More info about Function Resource: https://docs.aws.amazon.com/serverless-application-model/latest/developerguide/sam-resource-function.html
@@ -120,37 +127,6 @@ Resources:
       Environment:
         Variables:
           statemachine_arn: !Ref FileImportStateMachine
-
-  # StateMachineExecutionRole:
-  #   Type: AWS::IAM::Role
-  #   Properties:
-  #     AssumeRolePolicyDocument:
-  #       Version: "2012-10-17"
-  #       Statement:
-  #         - Effect: Allow
-  #           Principal: { Service: [states.amazonaws.com] }
-  #           Action: ["sts:AssumeRole"]
-  #     Path: /
-  #     ManagedPolicyArns:
-  #       - "arn:aws:iam::aws:policy/service-role/AWSLambdaBasicExecutionRole"
-  #     Policies:
-  #       - PolicyName: S3AccessPolicy
-  #         PolicyDocument:
-  #           Version: "2012-10-17"
-  #           Statement:
-  #             - Effect: Allow
-  #               Action:
-  #                 - "s3:PutObject"
-  #                 - "s3:GetObject"
-  #               Resource: 
-  #                 !Join
-  #                   - ""
-  #                   - - "arn:aws:s3:::"
-  #                     - !Join
-  #                       - "-"
-  #                       - - !Ref FileRepositoryBucketName
-  #                         - !Ref EnvName
-  #                     - "/*"
 
   StepsExecutionRole:
     Type: AWS::IAM::Role
@@ -172,6 +148,15 @@ Resources:
               - Effect: Allow
                 Action:
                   - "s3:*"
+                Resource: "*"
+              - Effect: "Allow"
+                Action: [
+                  "ec2:DescribeInstances",
+                  "ec2:CreateNetworkInterface",
+                  "ec2:AttachNetworkInterface",
+                  "ec2:DescribeNetworkInterfaces",
+                  "ec2:DeleteNetworkInterface"
+                ]
                 Resource: "*"
 
   S3WatcherExecutionRole:
